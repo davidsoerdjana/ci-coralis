@@ -23,15 +23,22 @@ Buka XAMPP, nyalakan Apache & MySQL
 Masuk ke browser ketik localhost/ci-coralis
 
 Step membuat project: referensi documentation https://codeigniter.com/userguide3/index.html
-1. Buka application > config > autoload.php, buat *1 dan config.php buat lanjutan *1. Lalu buat file .htaccess didalam folder project,
+1. Buka application > config > autoload.php, buat *1 dan config.php buat lanjutan *1. Lalu buat file .htaccess di dalam folder project,
    referensi https://codeigniter.com/userguide3/general/urls.html?highlight=htaccess
 2. Buka application > config > routes.php, buat *2
-3. Masuk ke folder controllers, didalamnya buat file Auth.php, masuk ke dalam file itu buat *3
-4. Masuk ke folder vendor > sbadmin2. Copy folder css, img, js, vendor kedalam folder assets di dalam project
-5. Masuk ke application > views, buat folder auth dan templates. Didalam folder auth buat file login.php,
-   didalam folder templates buat file auth_header.php dan auth_footer.php. Masuk ke dalam file auth_header.php buat *4,
+3. Masuk ke application > controllers, di dalamnya buat file Auth.php, masuk ke dalam file itu buat *3
+4. Masuk ke folder vendor > sbadmin2. Copy folder css, img, js, vendor ke dalam folder assets di dalam project
+5. Masuk ke application > views, buat folder auth dan templates. Di dalam folder auth buat file login.php,
+   di dalam folder templates buat file auth_header.php dan auth_footer.php. Masuk ke dalam file auth_header.php buat *4,
    lalu masuk ke login.php dan auth_footer.php buat lanjutan *4
-6. Masuk ke application > views > auth. Didalam folder auth buat file registration.php, masuk ke dalam file itu buat *5
-7. Buka browser, masuk ke localhost/phpmyadmin buat database dengan nama codeigniter_coralis atau ci_coralis,
+6. Masuk ke application > views > auth. Di dalam folder auth buat file registration.php, masuk ke dalam file itu buat *5
+7. Buka browser, masuk ke localhost/phpmyadmin buat database dengan nama ci-coralis (sudah diexport jd, ci-coralis.sql ada di dalam folder project),
    lalu masuk ke application > config > database.php isi 'username' dengan 'root' dan 'database' dengan 'nama_database_yang_dibuat_di_phpmyadmin_tadi'
-8. 
+8. Masuk ke application > controllers, di dalamnya buat file User.php, masuk ke dalam file itu buat *6
+9. Masuk ke application > views, buat folder user. Di dalam folder user buat file index.php, masuk ke dalam file itu buat *7.
+   Lalu masuk ke application > views > templates. Di dalam folder templates buat file header.php, sidebar.php, topbar.php, footer.php,
+   masuk ke dalam semua file itu buat lanjutan *7
+10. Masuk ke application > controllers > User.php buat *8
+11. Masuk ke application > controllers, di dalamnya buat file Admin.php, masuk ke dalam file itu buat *9
+12. Masuk ke application > views, buat folder admin. Di dalam folder admin buat file index.php, masuk ke dalam file itu buat *10
+13. 
