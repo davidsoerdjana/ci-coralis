@@ -11,6 +11,9 @@ https://getbootstrap.com/docs/4.6/getting-started/introduction/
 Font Awesome
 https://fontawesome.com/
 
+Query SQL
+https://www.dofactory.com/sql
+
 Visual Studio Code
 https://code.visualstudio.com/download
 
@@ -41,4 +44,3 @@ Step membuat project: referensi documentation https://codeigniter.com/userguide3
 10. Masuk ke application > controllers > User.php buat *8
 11. Masuk ke application > controllers, di dalamnya buat file Admin.php, masuk ke dalam file itu buat *9
 12. Masuk ke application > views, buat folder admin. Di dalam folder admin buat file index.php, masuk ke dalam file itu buat *10
-13. 
